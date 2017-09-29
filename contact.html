@@ -1,105 +1,78 @@
-<!-- HW Student Portfolio assignment -->
-<!DOCTYPE html>
 
+
+
+<!doctype html>
 <html lang="en-us">
 
 <head>
-	<meta charset="utf-8">
+  <meta charset="UTF-8">
+  <title>Contact | Mel Martin</title>
 
-	<title>Contact-Student Portfolio</title>
-	<link rel= "stylesheet" type= "text/css" href= "assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-	<header class="header">
-		<h1>Mel Martin</h1>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Mel Martin</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-		<section class="tabs">
+  <div id="wrapper" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-			<ul>
-				<li>
-					<a href="index.html">About	|</a>
-				</li>
-				<li>
-					<a href="portfolio.html">Portfolio	|</a>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-		</section>
-
-	</header>
+    </section>
 
 
-	<div id="wrapper">
+	<section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-		<section class="container">		
+        <a href="https://github.com/melesam"><img src="assets/images/github icon.png" class="social" alt="GitHub" /></a>
 
-			<h2>Contact</h2>
+        <a href="https://www.linkedin.com"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" /></a>
 
-			<form action="/action_page.php">
-				
-				<p>
-					<label for="fname">Name</label>
-					<br>
-					<input type="text" id="name" name="name" placeholder="Ex John Smith" style="width:655px;">
-				</p>
+        <a href="https://stackoverflow.com"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
 
-				<p>
-					<label for="Email">Email</label>
-					<br>
-					<input type="text" id="Email" name="Email" placeholder="example@gmail.com" style="width:655px;">
-				</p>
+    
 
-				<p>
-					<label for="Message">Message</label>
-					<br>
-					<textarea id="Message" name="Message" placeholder="" style="height:100px; width:655px;"></textarea>
-				</p>
 
-				<p>
-					<input type="submit" value="Submit" id="submit">
-				</p>
+  </div>
 
-			</form>
-
-		</section>
-
-	</div>
-
-	
-
-	<aside class="Connect">
-		<h3>Connect With Me</h3>
-
-		<div class="sites">
-			<ul>
-				<a href="https://github.com/melesam"><img src="assets/images/github icon.png" alt="GitHub icon" style="width: 40px; height: 40px;"></a>
-
-				<a href="https://www.linkedin.com"><img src="assets/images/linkedin.png" alt="LinkedIn icon" style="width: 40px; height: 40px;"></a>
-
-				<a href="https://stackoverflow.com"><img src="assets/images/stackoverflow.png" alt="Stackoverflow icon" style="width: 40px; height: 40px;"></a>
-
-			</ul>
-		</div>
-	</aside>
-	
-<footer class="footer">
-
-	<p>&#169 Copyright Melesa Martin</p>
-	
-</footer>
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 2017 Melesa Martin
+    </div>
+  </footer>
 </body>
 
-
 </html>
-
-
-
 
